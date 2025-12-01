@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+
+h1 { font-size: 70px;
+     text-align: center;
+     margin: 3%}
+
+/* Contenedor principal con flexbox */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap; /* permite que las cajas bajen si no caben */
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Cajas individuales */
+.caja {
+  background-color: #000000;
+  border-radius: 10px;
+  flex: 1 1 300px; /* crece, encoge, ancho mínimo */
+  max-width: 350px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Imagen */
+.caja img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Subtítulo */
+.caja h3 {
+  margin: 15px 0 10px;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+/* Párrafo */
+.caja p {
+  color: #f2f2f2;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Responsivo: ajusta diseño en pantallas pequeñas */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pie { text-align: center;
+       color: #555;}

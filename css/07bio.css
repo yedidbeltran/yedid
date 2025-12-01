@@ -1,0 +1,95 @@
+/* Fondo con calaveras "punk" */
+body {
+  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/52/30/8d/52308d4f6a3dc6629e1b5b60cfa41c8a.png");
+  background-size: 100px;
+  color: white;
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: hotpink;
+  text-shadow: 3px 3px 5px white;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+/* Subtítulo */
+h2 {
+  color: white;
+  background-color: hotpink;
+  padding: 10px;
+  border: 3px dashed black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*AUDIO/*
+
+.audio { min-width: 1px;
+        text-align: center;
+        margin: 2% 0%;}
+        
+/* Imagen grande */
+img {
+  width: 300px;
+  height: auto;
+  border: 5px solid hotpink;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* Datos personales */
+.bio {
+  background-color: rgba(255, 20, 147, 0.2);
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  display: inline-block;
+  color: #ffb6c1;
+}
+
+/* Secciones */
+.historia, .influencias, .titulo {
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid hotpink;
+  background-color: rgba(255, 192, 203, 0.1);
+  text-align: left;
+  width: 80%;
+  display: inline-block;
+}
+
+h3 {
+  color: hotpink;
+  text-shadow: 2px 2px 5px black;
+}
+
+p {
+  line-height: 1.5;
+  color: white;
+  font-size: 17px;
+}
+
+/* Pie de página */
+footer {
+  background-color: hotpink;
+  color: black;
+  padding: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+/* Pequeños efectos novatos */
+em {
+  color: #ff69b4;
+  font-style: italic;
+}
+
+strong {
+  color: #ff1493;
+}

@@ -1,0 +1,135 @@
+
+body {background-color: #f8f8f8;
+      color: #666;
+      
+      font: "Poppins", Arial, sans-serif;
+      border-radius: 12px;
+      shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fuente);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.7;
+}
+
+
+.encabezado {
+  text-align: center;
+  background: linear-gradient(135deg, #ffd6d6 0%, #fff2f2 100%);
+  padding: 80px 20px 60px;
+}
+
+.encabezado h1 {
+  font-size: 2.8rem;
+  color: var(--color-primario);
+  margin-bottom: 15px;
+}
+
+.encabezado p {
+  font-size: 1.2rem;
+  color: var(--color-secundario);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+.contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+
+.contenido section {
+  margin-bottom: 60px;
+}
+
+.introduccion img,
+.gastronomia img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radio-borde);
+  box-shadow: 0 4px 10px var(--sombra);
+  margin-bottom: 20px;
+}
+
+/* TITULOS */
+h2 {
+  color: var(--color-primario);
+  margin-bottom: 15px;
+}
+
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.lugar {
+  background: #fff;
+  border-radius: var(--radio-borde);
+  box-shadow: 0 4px 10px var(--sombra);
+  flex: 1 1 300px;
+  max-width: 310px;
+  text-align: center;
+  transition: transform var(--transicion);
+}
+
+
+.lugar img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radio-borde) var(--radio-borde) 0 0;
+}
+
+.lugar h3 {
+  margin: 15px 0 10px;
+  color: var(--color-primario);
+}
+
+.lugar p {
+  padding: 0 15px 20px;
+  color: var(--color-secundario);
+}
+
+.datos ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.conclusion p {
+  font-size: 1.1rem;
+  text-align: center;
+  font-style: italic;
+  color: var(--color-secundario);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .encabezado h1 {
+    font-size: 2.2rem;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lugar {
+    max-width: 90%;
+  }
+}
+
+.pie {text-align: center;
+}

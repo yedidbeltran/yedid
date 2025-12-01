@@ -1,0 +1,47 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0px;
+    padding: 0px;}
+
+h2 { }
+
+
+h1 { text-align: center;
+      }
+.card { background-color: rgb(77, 55, 53);
+
+
+}
+.container { background-color: purple;}
+        
+
+.item { background-color: orange;
+        width: 100%;
+        min-height: 100px;
+        text-align: center;
+        padding: 16px;
+        box-sizing: border-box;}
+
+.items p { font-size: 18px;
+            line-height: 140%;
+            padding-bottom: 16px;
+            text-align: left;}
+
+
+            .items img { width: 100;
+             height: auto;}
+
+             
+.dos { align-self: flex-start;}
+
+
+/*Pantallas maximas de 600px*/
+
+@media only screen and ( )
+
+h1 { font size: 56px;}
+h2 { font-size: 56px;}
+
+/*Pantallas de 1380px en adelante*/
+@media only screen
+

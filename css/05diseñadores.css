@@ -1,0 +1,110 @@
+/*DOCUMENTO CSS */
+body {
+  background-color: #f9e6ff;
+  background-image: url("https://i.pinimg.com/originals/d4/ed/2d/d4ed2d5d7b3c097d42a41a39eb3d1843.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #4b2e83;
+  font-family: ;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Encabezados */
+h1 {
+  color: #570d6f;
+  background-color: white;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px pink;
+}
+
+h2 {
+  color: #6a1b9a;
+  margin-bottom: 30px;
+}
+
+/* Párrafo introductorio */
+.intro {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #b84edb;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 80%;
+  display: inline-block;
+  box-shadow: 5px 5px 15px pink;
+}
+
+/* Secciones de diseñadoras */
+.diseñadora {
+  background-color: #fff0f9;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  width: 80%;
+  display: inline-block;
+  color: #5a257c;
+  box-shadow: 0 0 10px lavender;
+}
+
+.diseñadora h3 {
+  color: #9b4e97;
+  font-family:Arial, Helvetica, sans-serif, cursive;
+  font-size: 28px;
+  text-shadow: 1px 1px 3px white;
+}
+
+.diseñadora img {
+  width: 250px;
+  border: 4px solid #b84edb;
+  border-radius: 15px;
+  float: right;
+  margin: 10px;
+  box-shadow: 5px 5px 10px pink;
+}
+
+/* Texto general */
+p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+/* Palabras resaltadas */
+strong {
+  color: #9c27b0;
+  text-decoration: underline;
+}
+
+em {
+  color: #ce93d8;
+}
+
+/* Conclusión */
+.conclusion {
+  background-color: #fbe4ff;
+  padding: 25px;
+  margin: 40px;
+  border-radius: 15px;
+  font-style: italic;
+  box-shadow: 0 0 10px pink;
+  width: 85%;
+  display: inline-block;
+}
+
+/* Pie de página */
+footer {
+  background-color: #b84edb;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  border-top: 4px solid white;
+}
+
+
