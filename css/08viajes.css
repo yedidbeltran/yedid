@@ -69,9 +69,7 @@ body {
   transition: transform var(--transicion), box-shadow var(--transicion);
 }
 
-.destino:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 20px var(--sombra);
+
 }
 
 .destino img {
