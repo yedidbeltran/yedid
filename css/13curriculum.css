@@ -37,7 +37,7 @@ main {
 }
 
 section {
-  background-color: #fff;
+  background-color: #e8e5e5;
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -62,7 +62,7 @@ ul {
   flex: 1 1 300px;
 }
 
-/* ======== CONTACTO ======== */
+
 .contacto form {
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ ul {
 .contacto input {
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 
@@ -96,16 +96,14 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ======== RESPONSIVE DESIGN ======== */
 
-/* Tablets (mínimo 600px) */
 @media (min-width: 600px) {
   main {
     padding: 3rem 5rem;
   }
 }
 
-/* Escritorio (mínimo 992px) */
+/* Escritorio) */
 @media (min-width: 992px) {
   main {
     max-width: 1100px;
@@ -120,7 +118,7 @@ footer {
   }
 
   .perfil {
-    text-align: left;
+    text-align: center;
   }
 }
 
