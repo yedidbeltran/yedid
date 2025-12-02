@@ -1,4 +1,4 @@
-/* ======== ESTILOS GENERALES ======== */
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -28,7 +28,7 @@ header {
   font-weight: 300;
 }
 
-/* ======== SECCIONES ======== */
+
 main {
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ footer {
   }
 }
 
-/* Escritorio) */
+
 @media (min-width: 992px) {
   main {
     max-width: 1100px;
@@ -122,4 +122,3 @@ footer {
   }
 }
 
-/*hola/*
